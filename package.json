@@ -1,27 +1,33 @@
 {
-        "name": "linkedin-scraper",
-        "version": "1.0.0",
-        "description": "LinkedIn job scraper (puppeteer, TS) - saves to JSON",
-        "main": "dist/index.js",
-        "scripts": {
-                "dev": "ts-node src/index.ts",
-                "build": "tsc -p .",
-                "start": "node dist/index.js"
-        },
-        "author": "",
-        "license": "MIT",
-        "dependencies": {
-                "dotenv": "^16.0.0",
-                "puppeteer": "^21.0.0",
-                "puppeteer-extra": "^3.3.4",
-                "puppeteer-extra-plugin-stealth": "^2.11.1",
-                "user-agents": "^1.0.710"
-        },
-        "devDependencies": {
-                "@types/node": "^20.0.0",
-                "ts-node": "^10.9.1",
-                "typescript": "^5.0.0"
-        },
-        "keywords": [],
-        "type": "commonjs"
+    "name":  "linkedin-scraper",
+    "version":  "1.0.0",
+    "description":  "LinkedIn job scraper (puppeteer, TS) - saves to JSON",
+    "main":  "dist/index.js",
+    "scripts":  {
+                    "dev":  "ts-node src/index.ts",
+                    "build":  "tsc -p .",
+                    "start":  "node dist/index.js"
+                },
+    "author":  "",
+    "license":  "MIT",
+    "dependencies":  {
+                         "dotenv":  "^16.0.0",
+                         "puppeteer":  "^21.0.0",
+                         "puppeteer-extra":  "^3.3.4",
+                         "puppeteer-extra-plugin-stealth":  "^2.11.1",
+                         "user-agents":  "^1.0.710"
+                     },
+    "devDependencies":  {
+                            "@types/node":  "^20.0.0",
+                            "ts-node":  "^10.9.1",
+                            "typescript":  "^5.0.0"
+                        },
+    "keywords":  [
+
+                 ],
+    "type":  "commonjs",
+    "engines":  {
+                    "node":  "\u003e=18",
+                    "npm":  "\u003e=9"
+                }
 }
